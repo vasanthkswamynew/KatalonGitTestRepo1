@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_001_Gosi_POC,Chrome 73.0.3683.86,,2019-03-29 13:23:15,2019-03-29 13:24:22,1m - 7.637s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_001_Add_Note,Chrome 73.0.3683.86,Test to Validdate login is successful wit valid credentials,2019-03-29 13:23:16,2019-03-29 13:24:04,47.998s,PASSED
+"Statement - realtitle = ""AngularJS • TodoMVC""",Chrome 73.0.3683.86,,2019-03-29 13:23:17,2019-03-29 13:23:17,0.004s,PASSED
+openBrowser,Chrome 73.0.3683.86,,2019-03-29 13:23:17,2019-03-29 13:23:51,33.492s,PASSED
+maximizeWindow,Chrome 73.0.3683.86,,2019-03-29 13:23:51,2019-03-29 13:23:52,1.364s,PASSED
+refresh,Chrome 73.0.3683.86,,2019-03-29 13:23:52,2019-03-29 13:23:56,4.005s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:23:56,2019-03-29 13:23:58,1.853s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:23:58,2019-03-29 13:23:59,1.296s,PASSED
+verifyElementPresent,Chrome 73.0.3683.86,,2019-03-29 13:23:59,2019-03-29 13:23:59,0.158s,PASSED
+Statement - Actualtitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 73.0.3683.86,,2019-03-29 13:23:59,2019-03-29 13:23:59,0.073s,PASSED
+Statement - If (Actualtitle.equalsIgnoreCase(realtitle)),Chrome 73.0.3683.86,,2019-03-29 13:23:59,2019-03-29 13:24:03,4.005s,PASSED
+sendKeys,Chrome 73.0.3683.86,,2019-03-29 13:24:03,2019-03-29 13:24:04,0.490s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_002_Add_Another_Note,Chrome 73.0.3683.86,Test to validate that Invalid username is displayed when user tries to login with invalid username,2019-03-29 13:24:04,2019-03-29 13:24:07,3.117s,PASSED
+setText,Chrome 73.0.3683.86,,2019-03-29 13:24:04,2019-03-29 13:24:05,0.589s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:24:05,2019-03-29 13:24:06,0.803s,PASSED
+waitForElementPresent,Chrome 73.0.3683.86,,2019-03-29 13:24:06,2019-03-29 13:24:06,0.245s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-29 13:24:06,2019-03-29 13:24:07,0.506s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:24:07,2019-03-29 13:24:07,0.222s,PASSED
+sendKeys,Chrome 73.0.3683.86,,2019-03-29 13:24:07,2019-03-29 13:24:07,0.265s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values,Chrome 73.0.3683.86,,2019-03-29 13:24:07,2019-03-29 13:24:13,5.676s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:24:08,2019-03-29 13:24:09,0.266s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-29 13:24:09,2019-03-29 13:24:09,0.554s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:24:09,2019-03-29 13:24:10,0.640s,PASSED
+Statement - First_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_Get1st_Text)),Chrome 73.0.3683.86,,2019-03-29 13:24:10,2019-03-29 13:24:10,0.344s,PASSED
+Statement - print(First_Text),Chrome 73.0.3683.86,,2019-03-29 13:24:10,2019-03-29 13:24:10,0.004s,PASSED
+com.reusableComponents.WriteExcel.writeToExcel,Chrome 73.0.3683.86,,2019-03-29 13:24:10,2019-03-29 13:24:11,1.315s,PASSED
+verifyMatch,Chrome 73.0.3683.86,,2019-03-29 13:24:11,2019-03-29 13:24:12,0.319s,PASSED
+Statement - Second_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_GetSecond_Text)),Chrome 73.0.3683.86,,2019-03-29 13:24:12,2019-03-29 13:24:12,0.358s,PASSED
+Statement - print(Second_Text),Chrome 73.0.3683.86,,2019-03-29 13:24:12,2019-03-29 13:24:12,0.002s,PASSED
+com.reusableComponents.WriteExcel.writeToExcel,Chrome 73.0.3683.86,,2019-03-29 13:24:12,2019-03-29 13:24:12,0.212s,PASSED
+verifyMatch,Chrome 73.0.3683.86,,2019-03-29 13:24:12,2019-03-29 13:24:13,0.372s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values,Chrome 73.0.3683.86,,2019-03-29 13:24:13,2019-03-29 13:24:16,3.038s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:24:14,2019-03-29 13:24:14,0.606s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-29 13:24:14,2019-03-29 13:24:15,0.430s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:24:15,2019-03-29 13:24:15,0.545s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-29 13:24:15,2019-03-29 13:24:16,0.400s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-29 13:24:16,2019-03-29 13:24:16,0.084s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed,Chrome 73.0.3683.86,,2019-03-29 13:24:16,2019-03-29 13:24:19,3.342s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:24:17,2019-03-29 13:24:17,0.164s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-29 13:24:17,2019-03-29 13:24:17,0.284s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:24:17,2019-03-29 13:24:18,0.495s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:24:18,2019-03-29 13:24:18,0.161s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-29 13:24:18,2019-03-29 13:24:18,0.259s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:24:18,2019-03-29 13:24:18,0.451s,PASSED
+Statement - First_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_Get1st_Text)),Chrome 73.0.3683.86,,2019-03-29 13:24:18,2019-03-29 13:24:19,0.102s,PASSED
+Statement - print(First_Text),Chrome 73.0.3683.86,,2019-03-29 13:24:19,2019-03-29 13:24:19,0.002s,PASSED
+com.reusableComponents.WriteExcel.writeToExcel,Chrome 73.0.3683.86,,2019-03-29 13:24:19,2019-03-29 13:24:19,0.106s,PASSED
+verifyMatch,Chrome 73.0.3683.86,,2019-03-29 13:24:19,2019-03-29 13:24:19,0.521s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed,Chrome 73.0.3683.86,,2019-03-29 13:24:19,2019-03-29 13:24:21,1.822s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-29 13:24:20,2019-03-29 13:24:20,0.368s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-29 13:24:20,2019-03-29 13:24:20,0.217s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-29 13:24:20,2019-03-29 13:24:21,0.435s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-29 13:24:21,2019-03-29 13:24:21,0.061s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-29 13:24:21,2019-03-29 13:24:21,0.054s,PASSED

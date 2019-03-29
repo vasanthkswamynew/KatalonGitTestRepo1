@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test to validate that Invalid username is displayed when user tries to login with invalid username</description>
+   <description>Test to validate that second note is created</description>
    <name>TC_002_Add_Another_Note</name>
    <tag></tag>
    <comment></comment>

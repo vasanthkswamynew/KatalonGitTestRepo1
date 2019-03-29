@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test to validate that the note should not display in the completed view</description>
    <name>TC_004_Check_Completed_No_Values</name>
    <tag></tag>
    <comment></comment>

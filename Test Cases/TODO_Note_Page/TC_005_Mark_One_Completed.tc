@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test to validate that note which is completed should get displayed in the completed view</description>
    <name>TC_005_Mark_One_Completed</name>
    <tag></tag>
    <comment></comment>

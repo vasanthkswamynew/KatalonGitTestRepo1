@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_001_Gosi_POC" time="67" tests="6" failures="0" errors="0">
+   <testsuite name="TS_001_Gosi_POC" tests="6" failures="0" errors="0" time="67" timestamp="2019-03-29 13:23:15" hostname="vasanthkswamy - Krishnaswamy" id="Test Suites/GOSI_POC/TS_001_Gosi_POC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308"/>
+         <property name="logFiles" value="C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846038550.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846043580.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846045524.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846049687.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846055285.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846057560.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846058477.png, C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846060960.png"/>
+         <property name="hostName" value="vasanthkswamy - Krishnaswamy"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.0.3"/>
+         <property name="sessionId" value="677c8509a20df4e4b6a7e7f6678ce857"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TODO_Note_Page/TC_001_Add_Note" classname="Test Cases/TODO_Note_Page/TC_001_Add_Note" status="PASSED">
+         <system-out><![CDATA[2019-03-29 13:23:16 - [TEST_CASE][PASSED] - Test Cases/TODO_Note_Page/TC_001_Add_Note: Test Cases/TODO_Note_Page/TC_001_Add_Note
+
+2019-03-29 13:23:17 - [TEST_STEP][PASSED] - Statement - realtitle = "AngularJS • TodoMVC": null
+
+2019-03-29 13:23:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://todomvc.com/examples/angularjs/#/'
+
+2019-03-29 13:23:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://todomvc.com/examples/angularjs/#/'
+
+2019-03-29 13:23:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-03-29 13:23:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-29 13:23:52 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-03-29 13:23:56 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-03-29 13:23:56 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:23:58 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:23:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:23:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846038550.png]]
+
+2019-03-29 13:23:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/TODO_Note_Page/TC_001_Angular_JS_Homepage_Text' is present
+
+2019-03-29 13:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/TODO_Note_Page/TC_001_Angular_JS_Homepage_Text' is present
+
+2019-03-29 13:23:59 - [TEST_STEP][PASSED] - Statement - Actualtitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'AngularJS • TodoMVC'
+
+2019-03-29 13:23:59 - [MESSAGE][PASSED] - Current window's title is: 'AngularJS • TodoMVC'
+
+2019-03-29 13:23:59 - [TEST_STEP][PASSED] - Statement - If (Actualtitle.equalsIgnoreCase(realtitle)): Taking screenshot successfully
+
+2019-03-29 13:23:59 - [TEST_STEP][PASSED] - Statement - print(Actualtitle): null
+
+2019-03-29 13:23:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'AngularJS • TodoMVC' and expected text 'AngularJS • TodoMVC' are matched  using regular expression
+
+2019-03-29 13:24:00 - [MESSAGE][PASSED] - Actual text 'AngularJS • TodoMVC' and expected text 'AngularJS • TodoMVC' are matched  using regular expression
+
+2019-03-29 13:24:00 - [TEST_STEP][PASSED] - setText: Text 'Gosi General Note' is set on object 'Object Repository/TODO_Note_Page/TC_001_Note_Value'
+
+2019-03-29 13:24:03 - [MESSAGE][PASSED] - Text 'Gosi General Note' is set on object 'Object Repository/TODO_Note_Page/TC_001_Note_Value'
+
+2019-03-29 13:24:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846043580.png]]
+
+2019-03-29 13:24:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TODO_Note_Page/TC_001_Note_Value'
+
+2019-03-29 13:24:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TODO_Note_Page/TC_001_Note_Value']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_002_Add_Another_Note" classname="Test Cases/TODO_Note_Page/TC_002_Add_Another_Note" status="PASSED">
+         <system-out><![CDATA[2019-03-29 13:24:04 - [TEST_CASE][PASSED] - Test Cases/TODO_Note_Page/TC_002_Add_Another_Note: Test Cases/TODO_Note_Page/TC_002_Add_Another_Note
+
+2019-03-29 13:24:04 - [TEST_STEP][PASSED] - setText: Text 'Automation General Note' is set on object 'Object Repository/TODO_Note_Page/TC_001_Note_Value'
+
+2019-03-29 13:24:05 - [MESSAGE][PASSED] - Text 'Automation General Note' is set on object 'Object Repository/TODO_Note_Page/TC_001_Note_Value'
+
+2019-03-29 13:24:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846045524.png]]
+
+2019-03-29 13:24:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/TODO_Note_Page/TC_001_Note_Value' is present
+
+2019-03-29 13:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/TODO_Note_Page/TC_001_Note_Value' is present
+
+2019-03-29 13:24:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TODO_Note_Page/TC_001_Note_Value' is clicked on
+
+2019-03-29 13:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TODO_Note_Page/TC_001_Note_Value' is clicked on
+
+2019-03-29 13:24:07 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:07 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/TODO_Note_Page/TC_001_Note_Value'
+
+2019-03-29 13:24:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TODO_Note_Page/TC_001_Note_Value']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values" classname="Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values" status="PASSED">
+         <system-out><![CDATA[2019-03-29 13:24:07 - [TEST_CASE][PASSED] - Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values: Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values
+
+2019-03-29 13:24:08 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:09 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TODO_Note_Page/TC_003_Active_Link' is clicked on
+
+2019-03-29 13:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TODO_Note_Page/TC_003_Active_Link' is clicked on
+
+2019-03-29 13:24:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846049687.png]]
+
+2019-03-29 13:24:10 - [TEST_STEP][PASSED] - Statement - First_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_Get1st_Text)): Text of object 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' is: 'Gosi General Note'
+
+2019-03-29 13:24:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' is: 'Gosi General Note'
+
+2019-03-29 13:24:10 - [TEST_STEP][PASSED] - Statement - print(First_Text): null
+
+2019-03-29 13:24:10 - [TEST_STEP][PASSED] - com.reusableComponents.WriteExcel.writeToExcel: com.reusableComponents.WriteExcel.writeToExcel is PASSED
+
+2019-03-29 13:24:11 - [MESSAGE][PASSED] - com.reusableComponents.WriteExcel.writeToExcel is PASSED
+
+2019-03-29 13:24:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gosi General Note' and expected text 'Gosi General Note' are matched  using regular expression
+
+2019-03-29 13:24:12 - [MESSAGE][PASSED] - Actual text 'Gosi General Note' and expected text 'Gosi General Note' are matched  using regular expression
+
+2019-03-29 13:24:12 - [TEST_STEP][PASSED] - Statement - Second_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_GetSecond_Text)): Text of object 'Object Repository/TODO_Note_Page/TC_003_GetSecond_Text' is: 'Automation General Note'
+
+2019-03-29 13:24:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/TODO_Note_Page/TC_003_GetSecond_Text' is: 'Automation General Note'
+
+2019-03-29 13:24:12 - [TEST_STEP][PASSED] - Statement - print(Second_Text): null
+
+2019-03-29 13:24:12 - [TEST_STEP][PASSED] - com.reusableComponents.WriteExcel.writeToExcel: com.reusableComponents.WriteExcel.writeToExcel is PASSED
+
+2019-03-29 13:24:12 - [MESSAGE][PASSED] - com.reusableComponents.WriteExcel.writeToExcel is PASSED
+
+2019-03-29 13:24:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Automation General Note' and expected text 'Automation General Note' are matched  using regular expression
+
+2019-03-29 13:24:13 - [MESSAGE][PASSED] - Actual text 'Automation General Note' and expected text 'Automation General Note' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values" classname="Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values" status="PASSED">
+         <system-out><![CDATA[2019-03-29 13:24:13 - [TEST_CASE][PASSED] - Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values: Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values
+
+2019-03-29 13:24:14 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:14 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TODO_Note_Page/TC_004_Completed_link' is clicked on
+
+2019-03-29 13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TODO_Note_Page/TC_004_Completed_link' is clicked on
+
+2019-03-29 13:24:15 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846055285.png]]
+
+2019-03-29 13:24:15 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' located by 'By.xpath: //label[contains(@class,'ng-binding')]' is not present after '5' second(s)
+
+2019-03-29 13:24:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' located by 'By.xpath: //label[contains(@class,'ng-binding')]' is not present after '5' second(s)
+
+2019-03-29 13:24:16 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/TODO_Note_Page/TC_003_GetSecond_Text' located by 'By.xpath: (//label[contains(@class,'ng-binding')])[2]' is not present after '5' second(s)
+
+2019-03-29 13:24:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/TODO_Note_Page/TC_003_GetSecond_Text' located by 'By.xpath: (//label[contains(@class,'ng-binding')])[2]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed" classname="Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed" status="PASSED">
+         <system-out><![CDATA[2019-03-29 13:24:16 - [TEST_CASE][PASSED] - Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed: Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed
+
+2019-03-29 13:24:17 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:17 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TODO_Note_Page/TC_005_First_Check_Box' is clicked on
+
+2019-03-29 13:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TODO_Note_Page/TC_005_First_Check_Box' is clicked on
+
+2019-03-29 13:24:17 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846057560.png]]
+
+2019-03-29 13:24:18 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:18 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TODO_Note_Page/TC_004_Completed_link' is clicked on
+
+2019-03-29 13:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TODO_Note_Page/TC_004_Completed_link' is clicked on
+
+2019-03-29 13:24:18 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846058477.png]]
+
+2019-03-29 13:24:18 - [TEST_STEP][PASSED] - Statement - First_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_Get1st_Text)): Text of object 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' is: 'Gosi General Note'
+
+2019-03-29 13:24:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' is: 'Gosi General Note'
+
+2019-03-29 13:24:19 - [TEST_STEP][PASSED] - Statement - print(First_Text): null
+
+2019-03-29 13:24:19 - [TEST_STEP][PASSED] - com.reusableComponents.WriteExcel.writeToExcel: com.reusableComponents.WriteExcel.writeToExcel is PASSED
+
+2019-03-29 13:24:19 - [MESSAGE][PASSED] - com.reusableComponents.WriteExcel.writeToExcel is PASSED
+
+2019-03-29 13:24:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gosi General Note' and expected text 'Gosi General Note' are matched  using regular expression
+
+2019-03-29 13:24:19 - [MESSAGE][PASSED] - Actual text 'Gosi General Note' and expected text 'Gosi General Note' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed" classname="Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed" status="PASSED">
+         <system-out><![CDATA[2019-03-29 13:24:19 - [TEST_CASE][PASSED] - Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed: Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed
+
+2019-03-29 13:24:20 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run: com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:20 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2019-03-29 13:24:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TODO_Note_Page/TC_006_Clear_Completed' is clicked on
+
+2019-03-29 13:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TODO_Note_Page/TC_006_Clear_Completed' is clicked on
+
+2019-03-29 13:24:20 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-03-29 13:24:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_132308\\1553846060960.png]]
+
+2019-03-29 13:24:21 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' located by 'By.xpath: //label[contains(@class,'ng-binding')]' is not present after '5' second(s)
+
+2019-03-29 13:24:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/TODO_Note_Page/TC_003_Get1st_Text' located by 'By.xpath: //label[contains(@class,'ng-binding')]' is not present after '5' second(s)
+
+2019-03-29 13:24:21 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/TODO_Note_Page/TC_003_GetSecond_Text' located by 'By.xpath: (//label[contains(@class,'ng-binding')])[2]' is not present after '5' second(s)
+
+2019-03-29 13:24:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/TODO_Note_Page/TC_003_GetSecond_Text' located by 'By.xpath: (//label[contains(@class,'ng-binding')])[2]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-29 13:23:15 - [TEST_SUITE][PASSED] - TS_001_Gosi_POC: Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

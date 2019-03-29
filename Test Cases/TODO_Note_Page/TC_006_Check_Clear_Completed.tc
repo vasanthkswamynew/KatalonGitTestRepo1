@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test to validate that the note created should not be avaiable upon clicking on clear completed.</description>
    <name>TC_006_Check_Clear_Completed</name>
    <tag></tag>
    <comment></comment>

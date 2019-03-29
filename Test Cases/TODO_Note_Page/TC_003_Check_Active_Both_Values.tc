@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Test to validate that the first note and second note is displayed in the active view</description>
    <name>TC_003_Check_Active_Both_Values</name>
    <tag></tag>
    <comment></comment>
