@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_001_Gosi_POC" time="2" tests="0" failures="0" errors="6">
+   <testsuite name="TS_001_Gosi_POC" tests="0" failures="0" errors="6" time="2" timestamp="2019-03-29 13:14:59" hostname="vasanthkswamy - Krishnaswamy" id="Test Suites/GOSI_POC/TS_001_Gosi_POC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_131452"/>
+         <property name="logFiles" value="C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Reports\\GOSI_POC\\TS_001_Gosi_POC\\20190329_131452\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vasanthkswamy - Krishnaswamy"/>
+         <property name="hostAddress" value="10.0.0.3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TODO_Note_Page/TC_001_Add_Note" classname="Test Cases/TODO_Note_Page/TC_001_Add_Note" status="ERROR">
+         <error type="ERROR" message="Test Cases/TODO_Note_Page/TC_001_Add_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_001_Add_Note: Test Cases/TODO_Note_Page/TC_001_Add_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_001_Add_Note: Test Cases/TODO_Note_Page/TC_001_Add_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_002_Add_Another_Note" classname="Test Cases/TODO_Note_Page/TC_002_Add_Another_Note" status="ERROR">
+         <error type="ERROR" message="Test Cases/TODO_Note_Page/TC_002_Add_Another_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_002_Add_Another_Note: Test Cases/TODO_Note_Page/TC_002_Add_Another_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_002_Add_Another_Note: Test Cases/TODO_Note_Page/TC_002_Add_Another_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values" classname="Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values" status="ERROR">
+         <error type="ERROR" message="Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values: Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values: Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values" classname="Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values" status="ERROR">
+         <error type="ERROR" message="Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values: Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values: Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed" classname="Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed" status="ERROR">
+         <error type="ERROR" message="Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed: Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed: Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed" classname="Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed" status="ERROR">
+         <error type="ERROR" message="Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed: Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-03-29 13:15:01 - [TEST_CASE][ERROR] - Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed: Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-29 13:14:59 - [TEST_SUITE][ERROR] - TS_001_Gosi_POC: Test Cases/TODO_Note_Page/TC_001_Add_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2019-03-29 13:14:59 - [TEST_SUITE][ERROR] - TS_001_Gosi_POC: Test Cases/TODO_Note_Page/TC_001_Add_Note has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

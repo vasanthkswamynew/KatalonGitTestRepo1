@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-29T13:14:59</date>
+  <millis>1553845499654</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/GOSI_POC/TS_001_Gosi_POC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_001_Gosi_POC</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/GOSI_POC/TS_001_Gosi_POC</property>
+</record>
+<record>
+  <date>2019-03-29T13:14:59</date>
+  <millis>1553845499747</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;vasanthkswamy - Krishnaswamy&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">vasanthkswamy - Krishnaswamy</property>
+</record>
+<record>
+  <date>2019-03-29T13:14:59</date>
+  <millis>1553845499761</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 8.1 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 8.1 64bit</property>
+</record>
+<record>
+  <date>2019-03-29T13:14:59</date>
+  <millis>1553845499764</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.0.0.3&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.0.0.3</property>
+</record>
+<record>
+  <date>2019-03-29T13:14:59</date>
+  <millis>1553845499767</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.7.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.7.1.1</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501159</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TODO_Note_Page/TC_001_Add_Note</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TODO_Note_Page/TC_001_Add_Note</property>
+  <property name="description">Test to Validdate login is successful wit valid credentials</property>
+  <property name="id">Test Cases/TODO_Note_Page/TC_001_Add_Note</property>
+  <property name="source">C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Test Cases\\TODO_Note_Page\\TC_001_Add_Note.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501172</millis>
+  <sequence>6</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TODO_Note_Page/TC_001_Add_Note has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501175</millis>
+  <sequence>7</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TODO_Note_Page/TC_001_Add_Note</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501262</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TODO_Note_Page/TC_002_Add_Another_Note</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TODO_Note_Page/TC_002_Add_Another_Note</property>
+  <property name="description">Test to validate that Invalid username is displayed when user tries to login with invalid username</property>
+  <property name="id">Test Cases/TODO_Note_Page/TC_002_Add_Another_Note</property>
+  <property name="source">C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Test Cases\\TODO_Note_Page\\TC_002_Add_Another_Note.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501268</millis>
+  <sequence>9</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TODO_Note_Page/TC_002_Add_Another_Note has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501270</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TODO_Note_Page/TC_002_Add_Another_Note</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501372</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values</property>
+  <property name="source">C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Test Cases\\TODO_Note_Page\\TC_003_Check_Active_Both_Values.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501378</millis>
+  <sequence>12</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501380</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501387</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values</property>
+  <property name="source">C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Test Cases\\TODO_Note_Page\\TC_004_Check_Completed_No_Values.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501392</millis>
+  <sequence>15</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501429</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501435</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed</property>
+  <property name="source">C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Test Cases\\TODO_Note_Page\\TC_005_Mark_One_Completed.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501439</millis>
+  <sequence>18</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501440</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501463</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed</property>
+  <property name="source">C:\\Users\\vasanthkswamy\\git\\KatalonGitTestRepo1\\Test Cases\\TODO_Note_Page\\TC_006_Check_Clear_Completed.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501467</millis>
+  <sequence>21</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501470</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-29T13:15:01</date>
+  <millis>1553845501715</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/GOSI_POC/TS_001_Gosi_POC</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

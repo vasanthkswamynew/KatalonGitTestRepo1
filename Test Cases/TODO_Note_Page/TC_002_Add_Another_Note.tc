@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to validate that Invalid username is displayed when user tries to login with invalid username</description>
+   <name>TC_002_Add_Another_Note</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55900f4a-f39e-49b6-9fb8-a7e7d3d05ab5</testCaseGuid>
+</TestCaseEntity>
