@@ -31,27 +31,27 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class WriteExcel {
-@Keyword
-def void writeToExcel(int iRow, int iCell, String iText ){
-FileInputStream file = new FileInputStream (new File("C:\\Users\\vasanthkswamy\\Documents\\TestData.xlsx"))
-XSSFWorkbook workbook = new XSSFWorkbook(file);
-XSSFSheet sheet = workbook.getSheet("Login")
-//Write data to excel'
-Row oRow;
-oRow = sheet.getRow(iRow);
-if(oRow == null){
-sheet.createRow(iRow);
-oRow = sheet.getRow(iRow);
-}
-Cell oCell;
-oCell = oRow.getCell(iCell - 1);
-if(oCell == null ){
-oRow.createCell(iCell - 1);
-oCell = oRow.getCell(iCell - 1);
-}
-oCell.setCellValue(iText);
-FileOutputStream outFile =new FileOutputStream(new File("C:\\Users\\vasanthkswamy\\Documents\\TestData.xlsx"));
-workbook.write(outFile);
-outFile.close();
+	@Keyword
+	def void writeToExcel(int iRow, int iCell, String iText ){
+		FileInputStream file = new FileInputStream (new File("C:\\Users\\vasanthkswamy\\Documents\\TestData.xlsx"))
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFSheet sheet = workbook.getSheet("Login")
+		//Write data to excel'
+		Row oRow;
+		oRow = sheet.getRow(iRow);
+		if(oRow == null){
+			sheet.createRow(iRow);
+			oRow = sheet.getRow(iRow);
+		}
+		Cell oCell;
+		oCell = oRow.getCell(iCell - 1);
+		if(oCell == null ){
+			oRow.createCell(iCell - 1);
+			oCell = oRow.getCell(iCell - 1);
+		}
+		oCell.setCellValue(iText);
+		FileOutputStream outFile =new FileOutputStream(new File("C:\\Users\\vasanthkswamy\\Documents\\TestData.xlsx"));
+		workbook.write(outFile);
+		outFile.close();
 	}
 }

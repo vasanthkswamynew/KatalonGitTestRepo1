@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_001_Gosi_POC,Chrome 73.0.3683.86,,2019-03-30 22:46:01,2019-03-30 22:47:32,1m - 31.652s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_001_Add_Note,Chrome 73.0.3683.86,Test to Validdate note is created sucessfully,2019-03-30 22:46:02,2019-03-30 22:47:13,1m - 11.366s,PASSED
+Statement - realtitle = title,Chrome 73.0.3683.86,,2019-03-30 22:46:03,2019-03-30 22:46:03,0.087s,PASSED
+openBrowser,Chrome 73.0.3683.86,,2019-03-30 22:46:03,2019-03-30 22:46:43,40.338s,PASSED
+maximizeWindow,Chrome 73.0.3683.86,,2019-03-30 22:46:43,2019-03-30 22:46:45,2.163s,PASSED
+refresh,Chrome 73.0.3683.86,,2019-03-30 22:46:45,2019-03-30 22:46:47,1.380s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:46:47,2019-03-30 22:46:51,4.706s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:46:51,2019-03-30 22:46:54,2.202s,PASSED
+verifyElementPresent,Chrome 73.0.3683.86,,2019-03-30 22:46:54,2019-03-30 22:46:54,0.137s,PASSED
+Statement - Actualtitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 73.0.3683.86,,2019-03-30 22:46:54,2019-03-30 22:46:54,0.088s,PASSED
+Statement - If (Actualtitle.equalsIgnoreCase(realtitle)),Chrome 73.0.3683.86,,2019-03-30 22:46:54,2019-03-30 22:47:11,17.411s,PASSED
+sendKeys,Chrome 73.0.3683.86,,2019-03-30 22:47:11,2019-03-30 22:47:13,1.847s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_002_Add_Another_Note,Chrome 73.0.3683.86,Test to validate that second note is created,2019-03-30 22:47:13,2019-03-30 22:47:17,4.195s,PASSED
+setText,Chrome 73.0.3683.86,,2019-03-30 22:47:15,2019-03-30 22:47:16,1.201s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:47:16,2019-03-30 22:47:16,0.610s,PASSED
+waitForElementPresent,Chrome 73.0.3683.86,,2019-03-30 22:47:16,2019-03-30 22:47:16,0.112s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-30 22:47:16,2019-03-30 22:47:17,0.387s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:47:17,2019-03-30 22:47:17,0.260s,PASSED
+sendKeys,Chrome 73.0.3683.86,,2019-03-30 22:47:17,2019-03-30 22:47:17,0.261s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_003_Check_Active_Both_Values,Chrome 73.0.3683.86,Test to validate that the first note and second note is displayed in the active view,2019-03-30 22:47:17,2019-03-30 22:47:22,4.148s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:47:18,2019-03-30 22:47:18,0.172s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-30 22:47:18,2019-03-30 22:47:19,0.695s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:47:19,2019-03-30 22:47:20,0.561s,PASSED
+Statement - First_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_Get1st_Text)),Chrome 73.0.3683.86,,2019-03-30 22:47:20,2019-03-30 22:47:20,0.319s,PASSED
+Statement - print(First_Text),Chrome 73.0.3683.86,,2019-03-30 22:47:20,2019-03-30 22:47:20,0.006s,PASSED
+com.reusableComponents.WriteExcel.writeToExcel,Chrome 73.0.3683.86,,2019-03-30 22:47:20,2019-03-30 22:47:21,0.891s,PASSED
+verifyMatch,Chrome 73.0.3683.86,,2019-03-30 22:47:21,2019-03-30 22:47:21,0.228s,PASSED
+Statement - Second_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_GetSecond_Text)),Chrome 73.0.3683.86,,2019-03-30 22:47:21,2019-03-30 22:47:21,0.188s,PASSED
+Statement - print(Second_Text),Chrome 73.0.3683.86,,2019-03-30 22:47:21,2019-03-30 22:47:21,0.003s,PASSED
+com.reusableComponents.WriteExcel.writeToExcel,Chrome 73.0.3683.86,,2019-03-30 22:47:21,2019-03-30 22:47:21,0.132s,PASSED
+verifyMatch,Chrome 73.0.3683.86,,2019-03-30 22:47:21,2019-03-30 22:47:22,0.173s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_004_Check_Completed_No_Values,Chrome 73.0.3683.86,Test to validate that the note should not display in the completed view,2019-03-30 22:47:22,2019-03-30 22:47:24,2.336s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:47:22,2019-03-30 22:47:23,0.309s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-30 22:47:23,2019-03-30 22:47:23,0.335s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:47:23,2019-03-30 22:47:23,0.523s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-30 22:47:23,2019-03-30 22:47:24,0.293s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-30 22:47:24,2019-03-30 22:47:24,0.200s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_005_Mark_One_Completed,Chrome 73.0.3683.86,Test to validate that note which is completed should get displayed in the completed view,2019-03-30 22:47:24,2019-03-30 22:47:28,4.161s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:47:25,2019-03-30 22:47:25,0.297s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-30 22:47:25,2019-03-30 22:47:25,0.242s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:47:25,2019-03-30 22:47:26,0.843s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:47:26,2019-03-30 22:47:26,0.155s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-30 22:47:26,2019-03-30 22:47:27,0.254s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:47:27,2019-03-30 22:47:27,0.570s,PASSED
+Statement - First_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TODO_Note_Page/TC_003_Get1st_Text)),Chrome 73.0.3683.86,,2019-03-30 22:47:27,2019-03-30 22:47:27,0.208s,PASSED
+Statement - print(First_Text),Chrome 73.0.3683.86,,2019-03-30 22:47:27,2019-03-30 22:47:27,0.002s,PASSED
+com.reusableComponents.WriteExcel.writeToExcel,Chrome 73.0.3683.86,,2019-03-30 22:47:27,2019-03-30 22:47:28,0.268s,PASSED
+verifyMatch,Chrome 73.0.3683.86,,2019-03-30 22:47:28,2019-03-30 22:47:28,0.436s,PASSED
+,,,,,,
+Test Cases/TODO_Note_Page/TC_006_Check_Clear_Completed,Chrome 73.0.3683.86,Test to validate that the note created should not be avaiable upon clicking on clear completed.,2019-03-30 22:47:28,2019-03-30 22:47:31,2.877s,PASSED
+com.reusableComponents.HighlightElement.run,Chrome 73.0.3683.86,,2019-03-30 22:47:29,2019-03-30 22:47:30,0.257s,PASSED
+click,Chrome 73.0.3683.86,,2019-03-30 22:47:30,2019-03-30 22:47:30,0.338s,PASSED
+takeScreenshot,Chrome 73.0.3683.86,,2019-03-30 22:47:30,2019-03-30 22:47:31,0.641s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-30 22:47:31,2019-03-30 22:47:31,0.097s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.86,,2019-03-30 22:47:31,2019-03-30 22:47:31,0.148s,PASSED

@@ -1,3 +1,14 @@
+
+/*############################################################################################################################################
+ * TestCase Name: TC_001_Add_Note
+ * Created By: Krishnaswamy
+ * Creation Date: 29th Mar 2019
+ * Summary: This test case will Add Note
+ * Modified By:
+ * Modified Date:
+ *#############################################################################################################################################
+ */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -14,22 +25,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String realtitle = 'AngularJS • TodoMVC'
+//get the value expected title and assign to realtitle variable
+String realtitle = GlobalVariable.title
 
-WebUI.openBrowser('http://todomvc.com/examples/angularjs/#/')
+//Get the url from Profile and open in the browser
+WebUI.openBrowser(GlobalVariable.url)
 
+//Maximize the browser window
 WebUI.maximizeWindow()
 
+//Refresh the page
 WebUI.refresh()
 
+//Call the reusable component for highlighting the test object
 CustomKeywords.'com.reusableComponents.HighlightElement.run'(findTestObject('TODO_Note_Page/TC_001_Angular_JS_Homepage_Text'))
 
+//Capture the screenshot
 WebUI.takeScreenshot()
 
+//Check for the existance of the test object in webb page
 WebUI.verifyElementPresent(findTestObject('TODO_Note_Page/TC_001_Angular_JS_Homepage_Text'), 5)
 
+//get the actual title from browser and assign to variable Actualtitle
 String Actualtitle = WebUI.getWindowTitle()
 
+//Verify whether the actual title and realtitle are same or not
 if (Actualtitle.equalsIgnoreCase(realtitle)) {
     print(Actualtitle)
 
